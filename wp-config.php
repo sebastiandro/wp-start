@@ -35,7 +35,7 @@ define('DB_COLLATE', '');
 
 
 /** Site URL And Home Dir */
-define('WP_SITEURL', 'http://localhost/sitename/wordpress');
+define('WP_SITEURL', 'http://localhost/sitename/cms');
 define('WP_HOME',    'http://localhost/sitename');
 
 /** wp-content dir */
