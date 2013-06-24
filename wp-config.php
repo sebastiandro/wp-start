@@ -33,6 +33,18 @@ define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
+
+/** Site URL And Home Dir */
+define('WP_SITEURL', 'http://localhost/sitename/wordpress');
+define('WP_HOME',    'http://localhost/sitename');
+
+/** wp-content dir */
+define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/sitename/wp-content');
+define('WP_CONTENT_URL', 'http://localhost:8888/sitename/wp-content');
+
+/** Default Theme */
+define('WP_DEFAULT_THEME', 'taco');
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
